@@ -1,73 +1,129 @@
 # Asif Khan
 
-**DevOps Engineer · Linux Systems Administrator**
+**Cloud Architect · DevOps Engineer · Linux Systems Administrator**
 
 🌐 [linuxpathfinder.com](https://linuxpathfinder.com) · 💼 [LinkedIn](https://www.linkedin.com/company/linux-pathfinder) · 🦊 [GitLab](https://gitlab.com/openlinux01) · 📧 [Contact](https://linuxpathfinder.com/contact)
 
 ---
 
-## Summary
+## About
 
-DevOps engineer with 14 years of Linux systems experience, spanning bare-metal
-and VPS administration through to container orchestration and infrastructure as
-code. I work across the full lifecycle — provisioning, deployment, networking,
-TLS, monitoring and the automation that holds it together.
+Fourteen years on Linux systems, DevOps, and cloud infrastructure.
 
-I also write about it. **[Linux Pathfinder](https://linuxpathfinder.com)** is my
-technical publication: 60+ in-depth guides on Linux administration, Docker,
-Kubernetes, Terraform and cloud infrastructure, written from production
-experience rather than documentation paraphrase.
+It started with open source. I liked that you could look at how something
+worked, take it apart, and fix it yourself. That curiosity turned into a job,
+and the job took me across a handful of industries — building and running Linux
+environments, and pushing teams toward DevOps practices before most of them
+were sold on the idea.
+
+The work I care about is the unglamorous kind: systems that stay up, deployments
+that don't need a maintenance window, and infrastructure someone else can
+understand six months later without calling me.
+
+I write about it too, at **[Linux Pathfinder](https://linuxpathfinder.com)** —
+60+ guides on Linux administration, containers, and cloud infrastructure. Most
+come out of something I hit at work and had to solve, so they include the parts
+that went wrong, not just the clean version.
+
+---
+
+## What I Do
+
+**System Architecture** — designing highly available, scalable systems that
+handle real workloads
+
+**Cloud Infrastructure** — cloud-native builds with dynamic scaling and
+on-demand resources, across multiple providers
+
+**Automation & Security** — automation frameworks with security and reliability
+built in rather than bolted on
+
+**DevOps Toolchain** — provisioning and orchestration through CI/CD and
+microservices
 
 ---
 
 ## Technical Expertise
 
-### Linux Systems Administration
-Debian, Ubuntu, RHEL / CentOS, Oracle Enterprise Linux
+### Linux
+Ubuntu · Debian · CentOS · Red Hat · Fedora · Oracle Enterprise Linux
 
 `systemd` service management · LVM disk management · filesystem attributes and
-permissions · memory and cache management · root password recovery · cron
-scheduling · shell environment and aliasing · `screen` session management
+permissions · performance tuning · memory and cache management · root recovery ·
+cron scheduling · shell environment and scripting
+
+### Cloud Platforms
+AWS · Google Cloud · Azure · DigitalOcean · Linode · Vultr · IONOS
+
+EC2 · RDS · ECS · EKS · Fargate · CloudWatch · CodePipeline · Application Load
+Balancer · IAM · Security Groups · GKE · Cloud SDK
+
+### Infrastructure as Code
+Terraform · AWS CloudFormation · Azure ARM
+
+VPC networking, cluster provisioning, ingress controllers, Helm deployment,
+RBAC — versioned providers with locked dependency state
 
 ### Containers & Orchestration
-**Docker** — image and container lifecycle, installation and configuration across
-Ubuntu, CentOS and RHEL
+Docker · Docker Swarm · Kubernetes · KVM
 
-**Kubernetes** — cluster provisioning with `kubeadm`, Minikube, GKE; stateful
-workload deployment; ingress, configmaps, secrets and persistent storage
+Image and container lifecycle · cluster provisioning with `kubeadm`, Minikube
+and managed services · ingress, configmaps, secrets, persistent storage ·
+stateful workloads
 
-### Cloud & Infrastructure as Code
-**Google Cloud** — GKE cluster creation and management, Cloud SDK installation and
-configuration, connecting clusters from RHEL/CentOS hosts
+### CI/CD
+Jenkins · GitHub Actions · GitLab CI/CD · Bitbucket Pipelines · AWS CodePipeline
 
-**AWS** — EC2, Application Load Balancer configuration for production application
-traffic
+Pipeline design, build and deployment automation, zero-downtime release
+strategies
 
-**Terraform** — GKE cluster provisioning, VPC networking, ingress controllers,
-Helm chart deployment, RBAC configuration
+### Configuration Management
+Ansible · Chef · SaltStack
+
+### Databases
+MySQL · MariaDB · PostgreSQL · MongoDB · Redis · AWS RDS
+
+Performance tuning, replication configuration and repair, migration strategy
+
+### Web & Application
+Nginx · Apache · Apache Tomcat · HAProxy · PHP-FPM
+
+Node.js · Next.js · Java · PHP · ElasticSearch · PM2 · Laravel · WordPress at
+scale (custom themes, plugins, multi-site)
+
+### Monitoring & Observability
+Prometheus · Grafana · ELK Stack · Nagios · Zabbix · AWS CloudWatch · New Relic ·
+PRTG · Monit · Cacti · Munin · Cockpit
+
+Logging, alerting, and continuous monitoring
 
 ### Networking & Security
-BIND DNS · SSH configuration and key-based authentication · `nmap` ·
-`ss` and `netstat` network analysis · IP addressing and subnetting ·
-SSL/TLS certificate management · `rsync` / `scp` over SSH
+BIND DNS · SSH and key-based authentication · `nmap` · `ss` / `netstat` · IP
+addressing and subnetting · `rsync` / `scp`
 
-### Web & Application Infrastructure
-Nginx · Apache · LAMP stack · PHP-FPM · WordPress at scale (custom themes,
-plugins, multi-site) · Node.js and Next.js deployment · PM2 process management ·
-zero-downtime deployment strategies · Laravel application hosting
+SSL/TLS management — Let's Encrypt automation, CSR generation, HTTPS
+implementation · security hardening · DevSecOps integration
 
 ### Mail Infrastructure
 Postfix · Dovecot · SMTP · DKIM / SPF / DMARC · webmail integration
 
-### Databases
-MySQL / MariaDB — installation, user and permission management, replication
-configuration and repair · PostgreSQL · Redis
+---
 
-### Monitoring & Virtualisation
-Nagios Core · Cockpit · KVM virtualisation
+## Also
 
-### Automation & Scripting
-Bash · PHP · WP-CLI · cron · deployment and teardown scripting
+Project management and process improvement · technical training and
+documentation · IT operations and service management · capacity planning and
+cost optimisation · stakeholder communication
+
+---
+
+## Consulting
+
+I take on DevOps integration and transformation, cloud migration and
+architecture, infrastructure management, CI/CD design, site reliability
+engineering, and performance and security work.
+
+→ [Get in touch](https://linuxpathfinder.com/contact)
 
 ---
 
@@ -75,17 +131,18 @@ Bash · PHP · WP-CLI · cron · deployment and teardown scripting
 
 ### Linux Pathfinder — [linuxpathfinder.com](https://linuxpathfinder.com)
 Technical publication on Linux and DevOps engineering. 60+ published guides.
+Built and run end to end.
 
-- Built and maintained end to end: custom WordPress theme (~5,700 lines) and 12
-  purpose-built plugins (~2,500 lines of PHP)
+- Custom WordPress theme (~5,700 lines) and 12 purpose-built plugins (~2,500
+  lines of PHP)
 - Structured data, Open Graph and social metadata generated per article
 - Automated social image composition using PHP GD
-- Isolated staging environment mirroring production, with database separation,
-  crawler blocking and outbound mail suppression
+- Isolated staging environment mirroring production — separate database,
+  crawler blocking, outbound mail suppression
 - CDN cache invalidation and asset versioning in the deployment path
 
 ### project-kube — [github.com/openlinux01/project-kube](https://github.com/openlinux01/project-kube)
-Multi-tier application deployed on Kubernetes.
+Multi-tier application on Kubernetes.
 
 - Namespace, configmap and secret management; ingress routing
 - Persistent storage with PostgreSQL and Redis backing services
@@ -94,16 +151,15 @@ Multi-tier application deployed on Kubernetes.
 ### Terraform-GCP — [github.com/openlinux01/Terraform-GCP](https://github.com/openlinux01/Terraform-GCP)
 Google Kubernetes Engine provisioned end to end as code.
 
-- VPC networking, GKE cluster and ingress controllers defined in Terraform
-- Helm chart deployment; Kubernetes dashboard RBAC configuration
+- VPC networking, GKE cluster and ingress controllers in Terraform
+- Helm chart deployment; Kubernetes dashboard RBAC
 - Versioned providers with locked dependency state
 
 ---
 
 ## Selected Writing
 
-A sample of the 60+ guides published at
-[linuxpathfinder.com](https://linuxpathfinder.com):
+From the 60+ guides at [linuxpathfinder.com](https://linuxpathfinder.com):
 
 **Kubernetes & Containers**
 - How To Set Up WordPress with MySQL on Kubernetes
@@ -125,7 +181,7 @@ A sample of the 60+ guides published at
 **Networking & Services**
 - How To Install the BIND DNS Server on Linux
 - Install and Configure Mail Server Using Postfix, Dovecot and Squirrelmail
-- Understanding the ss Command in Linux: A Modern Tool for Network Analysis
+- Understanding the ss Command in Linux
 - How to Use and Master the Nmap Command in Linux
 
 **Application Deployment**
@@ -135,4 +191,4 @@ A sample of the 60+ guides published at
 
 ---
 
-<sub>Résumé maintained in Markdown · September 2026</sub>
+<sub>Maintained in Markdown · September 2026</sub>
