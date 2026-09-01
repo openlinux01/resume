@@ -74,8 +74,9 @@ stateful workloads
 ### CI/CD
 Jenkins · GitHub Actions · GitLab CI/CD · Bitbucket Pipelines · AWS CodePipeline
 
-Pipeline design, build and deployment automation, zero-downtime release
-strategies
+Pipeline design with `Jenkinsfile` and `.gitlab-ci.yml` · multi-stage build and
+deployment automation · Docker Compose for local and production parity ·
+variable-driven environment configuration · zero-downtime release strategies
 
 ### Configuration Management
 Ansible · Chef · SaltStack
@@ -154,6 +155,14 @@ Google Kubernetes Engine provisioned end to end as code.
 - VPC networking, GKE cluster and ingress controllers in Terraform
 - Helm chart deployment; Kubernetes dashboard RBAC
 - Versioned providers with locked dependency state
+
+### kubernetes — [gitlab.com/openlinux01/kubernetes](https://gitlab.com/openlinux01/kubernetes)
+Full-stack application on Kubernetes, released through GitLab CI.
+
+- Frontend, backend and database tiers deployed to a Kubernetes cluster
+- Helm charts for templated, repeatable releases
+- GitLab CI pipeline driven by environment variables rather than hardcoded config
+- Documented setup and quickstart paths for anyone picking it up cold
 
 ---
 
